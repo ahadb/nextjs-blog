@@ -34,7 +34,7 @@ export default function Home({ allPostsData}) {
             <div className={utilStyles.blogDescription}>
              <div>Exploring JS, React & UI.</div>
               <div> <Link href={`http://ahadb.github.io/`}>
-                <a>Read my archives</a>
+                <a>Read my old blog</a>
               </Link></div>
             </div>
           </div>
@@ -56,7 +56,11 @@ export default function Home({ allPostsData}) {
           </ul>
         </section>
         <footer className={utilStyles.footer}>
-          Built with NextJS - 2022
+          Built with <Link href={`https://nextjs.org/`}>
+          <a>NextJS</a>
+        </Link>, hosted on <Link href={`https://vercel.com/`}>
+          <a>Vercel</a>
+        </Link> - © 2022
         </footer>
       </Layout>
   );
