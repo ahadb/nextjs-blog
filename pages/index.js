@@ -33,7 +33,7 @@ export default function Home({ allPostsData}) {
 
             <div className={utilStyles.blogDescription}>
              <div>Exploring JS, React & UI.</div>
-              <div> <Link href={`http://ahadb.github.io/`}>
+              <div>↪&nbsp;<Link href={`http://ahadb.github.io/`}>
                 <a>Read my old blog</a>
               </Link></div>
             </div>
