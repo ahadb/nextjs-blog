@@ -46,7 +46,7 @@
 
 .listItem {
     margin: 0 0 1.25rem;
-    font-size: 24px;
+    font-size: 1.2rem;
 }
 
 .lightText {
@@ -78,4 +78,8 @@ ul.horizontal-list li {
     position: absolute;
     height: 50px;
     bottom: 0px;
+}
+
+#pre {
+    font-size: 15px;
 }
