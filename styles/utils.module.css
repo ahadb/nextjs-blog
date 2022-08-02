@@ -4,6 +4,7 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    /*color: #7e37a4;*/
 }
 
 .headingXl {
@@ -45,7 +46,7 @@
 
 .listItem {
     margin: 0 0 1.25rem;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .lightText {
@@ -65,8 +66,7 @@ ul.horizontal-list li {
     font-size: 1.00rem;
     margin-left: 20px;
     margin-top: 13px;
-
-    color: #666;
+    color: #494a5c;
 
 }
 

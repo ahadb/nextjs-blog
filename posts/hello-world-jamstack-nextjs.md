@@ -1,6 +1,7 @@
 ---
-title: 'Hello World Jamstack, NextJS — Ooh, la, la..'
-date: '2022-07-30'
+title: 'A New Blog is Born'
+date: '2021-07-30'
+description: 'Hello world Jamstack, NextJS — ooh, la, la..'
 ---
 
 I haven't had much time to blog since 2020, abd I wanted to start afresh and build a blog from scratch so at it grows i could control each aspect. There are a myriad of options and it
@@ -15,8 +16,6 @@ Noting a couple of things down quickly that I took to heart in the few hours it 
 If you've been developing and renedering your components with only client-side architecture this is a great opportunity to see how things have evolved. 
 
 A lot has!
-
-
 
 
 
