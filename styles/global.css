@@ -17,10 +17,14 @@ body {
 a {
     color: #7e37a4;
     text-decoration: none;
+    font-weight: 600;
+    text-decoration: underline;
+
 }
 
 a:hover {
     text-decoration: underline;
+    color: #333;
 }
 
 img {
