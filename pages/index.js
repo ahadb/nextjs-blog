@@ -32,12 +32,20 @@ export default function Home({ allPostsData }) {
           />
 
           <div className={utilStyles.blogDescription}>
-            <div>Exploring JS, React & UI.</div>
+            <div>Exploring JavaScript, React & Software</div>
             <div>
-              ↪&nbsp;
-              <Link href={`http://ahadb.github.io/`}>
-                <a style={{fontWeight: 500}}>Read my old blog</a>
-              </Link>
+              <div>
+                ↪&nbsp;
+                <Link href={`http://ahadb.github.io/`}>
+                  <a style={{fontWeight: 500}}>Read my old blog</a>
+                </Link>
+              </div>
+             <div>
+               ↪&nbsp;
+               <Link href={`https://github.com/ahadb`}>
+                 <a style={{fontWeight: 500}}>Github</a>
+               </Link>
+             </div>
             </div>
           </div>
         </div>
