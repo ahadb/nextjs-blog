@@ -1,7 +1,8 @@
 ---
 title: "JavaScript Paradoxes and Myths"
 date: "2022-10-11"
-description: "Observing the JavaScript paradox and calling out some myths"
+description: "Observing JavaScript paradoxes and calling out some myths"
+words: "558"
 ---
 
 JavaScript is eating the world and is undoubtedly on an upward trajectory. As I see it, it will continue it’s trajectory well into the next decade as long as browsers use it as the language that powers the web; it’s unlikely that this will change although there are people who oppose it.

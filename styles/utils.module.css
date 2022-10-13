@@ -46,7 +46,7 @@
 
 .listItem {
     margin: 0 0 1.25rem;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     line-height: 1.55rem;
 }
 
@@ -66,7 +66,7 @@ ul.horizontal-list li {
 .blogDescription {
     font-size: 1.00rem;
     margin-left: 20px;
-    //margin-top: 13px;
+
     color: #494a5c;
 
 }
@@ -79,8 +79,31 @@ ul.horizontal-list li {
     position: absolute;
     height: 50px;
     bottom: 0px;
+    font-size: .9rem
 }
 
 #pre {
     font-size: 15px;
+}
+
+.content {
+    display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    align-items: center;
+}
+
+.marginRightAuto {
+    margin-right: auto;
+}
+
+.listItemDate {
+    font-size: .9rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.listItemDesc {
+    margin-top: -44px;
+    font-size: .95rem;
 }

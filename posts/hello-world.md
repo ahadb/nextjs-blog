@@ -2,6 +2,7 @@
 title: 'A New Blog is Born'
 date: '2021-07-30'
 description: 'Hello world'
+words: "228"
 ---
 
 I haven't had much time to blog since 2020, and I wanted to start afresh and try something new. There are a myriad of options and it

@@ -26,26 +26,26 @@ export default function Home({ allPostsData }) {
         <div style={{ display: "flex", marginTop: 33 }}>
           <img
             src="/images/ahad-bokhari.png" // Route of the image file
-            height={75} // Desired size with correct aspect ratio
-            width={75} // Desired size with correct aspect ratio
+            height={85} // Desired size with correct aspect ratio
+            width={85} // Desired size with correct aspect ratio
             alt="Your Name"
           />
 
           <div className={utilStyles.blogDescription}>
-            <div>Exploring JavaScript, React & Software</div>
+            <div>Exploring JavaScript, /www. & software</div>
             <div>
               <div>
                 ↪&nbsp;
                 <Link href={`http://ahadb.github.io/`}>
-                  <a style={{fontWeight: 500}}>Read my old blog</a>
+                  <a style={{ fontWeight: 500 }}>Read my old blog</a>
                 </Link>
               </div>
-             <div>
-               ↪&nbsp;
-               <Link href={`https://github.com/ahadb`}>
-                 <a style={{fontWeight: 500}}>Github</a>
-               </Link>
-             </div>
+              <div>
+                ↪&nbsp;
+                <Link href={`https://github.com/ahadb`}>
+                  <a style={{ fontWeight: 500 }}>Github</a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -55,23 +55,26 @@ export default function Home({ allPostsData }) {
         className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
       >
         <h2 className={utilStyles.headingXl}>Posts</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, description }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a style={{fontWeight: 500}}>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-              <br />
-              <small className={utilStyles.lightText}>
-                {description}
-              </small>
-            </li>
-          ))}
-        </ul>
+        {allPostsData.map(({ id, date, title, description, words }) => (
+          <div>
+            <div className={utilStyles.content}>
+              <div className={utilStyles.marginRightAuto}>
+                <div className={utilStyles.listItem}>
+                  <Link href={`/posts/${id}`}>
+                    <a style={{ fontWeight: 500 }}>{title}</a>
+                  </Link>
+                </div>
+              </div>
+              <div className={utilStyles.listItemDate}>
+                {words} words
+              </div>
+            </div>
+            <div className={utilStyles.listItemDesc}>
+              <Date dateString={date} /> <span style={{color: 'grey'}}>•</span> {''}
+              {description}
+            </div>
+          </div>
+        ))}
       </section>
       <footer className={utilStyles.footer}>
         Built with{" "}
@@ -87,3 +90,19 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
+
+// {allPostsData.map(({ id, date, title, description }) => (
+//     <li className={utilStyles.listItem} key={id}>
+//       <Link href={`/posts/${id}`}>
+//         <a style={{fontWeight: 500}}>{title}</a>
+//       </Link>
+//       <br />
+//       <small className={utilStyles.lightText}>
+//         <Date dateString={date} />
+//       </small>
+//       <br />
+//       <small className={utilStyles.lightText}>
+//         {description}
+//       </small>
+//     </li>
+// ))}

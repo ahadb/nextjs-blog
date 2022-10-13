@@ -1,7 +1,8 @@
 ---
 title: "Making Important Decisions About Your Next App's React Architecture"
 date: "2021-09-15"
-description: "Build awareness and make an informed decision for your next React app"
+description: "Build awareness to make an informed decision about your next app"
+words: "1,436"
 ---
 
 > *How fast the browser renders your app depends on how you build it. The first thing the browser receives is an HTML document*
