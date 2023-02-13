@@ -37,13 +37,13 @@ export default function Home({ allPostsData }) {
               <div>
                 ↪&nbsp;
                 <Link href={`http://ahadb.github.io/`}>
-                  <a style={{ fontWeight: 500 }}>Read my old blog</a>
+                 Read my old blog
                 </Link>
               </div>
               <div>
                 ↪&nbsp;
                 <Link href={`https://github.com/ahadb`}>
-                  <a style={{ fontWeight: 500 }}>Github</a>
+                  Github
                 </Link>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Home({ allPostsData }) {
               <div className={utilStyles.marginRightAuto}>
                 <div className={utilStyles.listItem}>
                   <Link href={`/posts/${id}`}>
-                    <a style={{ fontWeight: 500 }}>{title}</a>
+                    {title}
                   </Link>
                 </div>
               </div>
@@ -79,11 +79,11 @@ export default function Home({ allPostsData }) {
       <footer className={utilStyles.footer}>
         Built with{" "}
         <Link href={`https://nextjs.org/`}>
-          <a>NextJS</a>
+         NextJS
         </Link>
         , hosted on{" "}
         <Link href={`https://vercel.com/`}>
-          <a>Vercel</a>
+         Vercel
         </Link>{" "}
         - © 2022
       </footer>
