@@ -17,7 +17,7 @@ with the user interface. Both architectures have their pros and cons, and I can 
 or application as an MPA just because it’s the shiny new object, or because the creators of MPAs website might look cool, but rather carefully weigh out my options as you learn
 more about the architecture and framework.
 
-A notable difference in an MPA vs traditional web applications (Django, Wordpress, Ruby on Rails, etc) is that JavaScript is universal, meaning that the server is also written
+The most notable difference in an MPA vs traditional web applications (Django, Wordpress, Ruby on Rails, etc) is that JavaScript is universal, meaning that the server is also written
 in JavaScript - everything is one language. A few ultra-modern MPAs to check out and I'm sure there will be more coming:
 
 1. [Qwik](https://qwik.builder.io/)
@@ -25,5 +25,3 @@ in JavaScript - everything is one language. A few ultra-modern MPAs to check out
 
 If you’ve read any of Ray Dalio, you’ll realize that much of everything in life has a cycles, human beings, the economy and the same rule applies to software and tech. It
 feels like we’re moving forwards and then backwards, re-inventing the wheel while architecting new solutions that cause more problems that we weren’t aware of at the time.
-
-One thing is for certain, and if you’ve overlooked it, you shouldn’t. Browsers by themselves can do a lot of things out of the box.

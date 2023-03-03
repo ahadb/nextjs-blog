@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const name = "Ahad Bokhari";
 export const siteTitle =
-  "Ahad Bokhari - Exploring JavaScript, UI and React into the future";
+  "Ahad Bokhari - Exploring JavaScript, React & web technologies.";
 
 export default function Layout({ children, home }) {
   return (

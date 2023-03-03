@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
           />
 
           <div className={utilStyles.blogDescription}>
-            <div>Exploring JavaScript, /www. & software</div>
+            <div>Exploring JavaScript, React & web technologies.</div>
             <div>
               <div>
                 ↪&nbsp;
@@ -85,7 +85,7 @@ export default function Home({ allPostsData }) {
         <Link href={`https://vercel.com/`}>
          Vercel
         </Link>{" "}
-        - © 2022
+        - © 2023
       </footer>
     </Layout>
   );
